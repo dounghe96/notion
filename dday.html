@@ -21,31 +21,32 @@ body{
 }
 
 .days, .hours, .minutes, .seconds {
-  display: inline-black;
+  display: inline-block;
   padding: 20px;
   width: 100px;
   border-radius: 5px;
 }
 
 .days {
-  background: #C9D99E;
+  background: #EF2F3C;
 }
 
 .hours {
-  background: #C9D99E;
+  background: #eeeeee;
+  color: #183059;
 }
 
 .minutes {
-  background: #C9D99E;
+  background: #276FBF;
 }
 
 .seconds {
-  background: #C9D99E;
+  background: #F0A202;
 }
 
 .numbers {
   font-family: 'Montserrat', sans-serif;
-  color:  #ffffff;
+  color:  #183059;
   font-size: 4em;
   text-align: center;
 }
@@ -102,7 +103,7 @@ body{
 </body>
 <script>
     const year = new Date().getFullYear();
-const myDate = new Date('Aug 9, 2026 00:00:00');
+const myDate = new Date('Oct 15, 2024 00:00:00');
 console.log(myDate);
 
 // countdown
